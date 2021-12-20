@@ -116,7 +116,10 @@ p{
 	margin:40px auto 60px;
 	line-height: 2;
 }
-
+.btn-cls{
+	max-width: 50%;
+	margin:0 auto;
+}
 .btn {
   background: #11cdd4;
   background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
@@ -146,7 +149,7 @@ p{
   text-decoration: none;
 }
 
-btn:active {
+.btn:active {
 	position:relative;
 	top:1px;
 }
