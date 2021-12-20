@@ -3,6 +3,7 @@ body {
 	text-align: center;
 	font-family: 'Merriweather', serif !important;
 	color: #40514E;
+	background-color: #eaf6f6;
 }
 a{
 	margin: 10px 20px;
@@ -137,7 +138,7 @@ p{
   text-decoration: none;
   text-shadow: 1px 1px 2px #40514E;
 }
-@media(max-width:700px){
+@media(max-width:1000px){
 	.btn{
 		font-size:10px;
 		padding: 10px 15px;
