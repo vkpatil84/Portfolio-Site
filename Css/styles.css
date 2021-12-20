@@ -137,7 +137,13 @@ p{
   text-decoration: none;
   text-shadow: 1px 1px 2px #40514E;
 }
-
+@media(max-width:700px){
+	.btn{
+		font-size:10px;
+		padding: 10px 15px;
+	}
+	
+}
 .btn:hover {
   background: #30e3cb;
   background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
