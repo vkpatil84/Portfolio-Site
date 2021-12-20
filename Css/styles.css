@@ -140,8 +140,12 @@ p{
 }
 @media(max-width:1000px){
 	.btn{
-		font-size:10px;
+		font-size:7px;
 		padding: 10px 15px;
+	}
+	.skills{
+		width: 60%;
+		margin: 0 auto;
 	}
 	
 }
