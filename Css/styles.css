@@ -109,7 +109,7 @@ p{
 	line-height: 2;
 }
 
-.contact-msg {
+.contact-me {
 	width: 40%;
 	margin:40px auto 60px;
 	line-height: 2;
@@ -124,13 +124,13 @@ p{
   background-image: linear-gradient(to bottom, #11cdd4, #11999e);
   -webkit-border-radius: 30;
   -moz-border-radius: 30;
-  border-radius: 30px;
+  border-radius: 1.875rem;
   font-family: verdana, sans-serif;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 1rem;
   padding: 15px 25px 15px 25px;
   text-decoration: none;
-	text-shadow: 1px 1px 2px grey;
+  text-shadow: 1px 1px 2px #40514E;
 }
 
 .btn:hover {
@@ -143,6 +143,10 @@ p{
   text-decoration: none;
 }
 
+btn:active {
+	position:relative;
+	top:1px;
+}
 /****************** Bottom Container *******************/
 .bottom-container {
 	background-color:#66BFBF;
